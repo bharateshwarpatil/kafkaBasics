@@ -1,7 +1,8 @@
 # Kafka Basics of Producer and Consumer  
 
-This is  basic of KAFKA producer and consumer 
-Different mode type of the producer and consumer 
+This is basic of Kafka producer and consumer.
+Code is just for learning purpose.  
+
 
 ## Recommended for who want know different modes of consumer and producer
 
@@ -17,7 +18,7 @@ Different mode type of the producer and consumer
 3) Auto commit
 4) Custom commit 
 
-## Custom Serialisation for the value 
+## Custom Serialisation 
   
 
 
