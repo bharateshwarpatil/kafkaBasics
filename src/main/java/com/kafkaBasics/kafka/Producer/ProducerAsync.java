@@ -1,7 +1,8 @@
-package com.taining.kafka.Producer;
+package com.kafkaBasics.kafka.Producer;
 
-import com.taining.kafka.Constants;
-import com.taining.kafka.pojo.Event;
+import com.kafkaBasics.kafka.Constants;
+import com.kafkaBasics.kafka.pojo.Event;
+
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;

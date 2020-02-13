@@ -1,7 +1,8 @@
-package com.taining.kafka.consumer;
+package com.kafkaBasics.kafka.consumer;
 
-import com.taining.kafka.Constants;
-import com.taining.kafka.pojo.Event;
+
+import com.kafkaBasics.kafka.Constants;
+import com.kafkaBasics.kafka.pojo.Event;
 import org.apache.kafka.clients.consumer.*;
 
 import java.util.Collections;

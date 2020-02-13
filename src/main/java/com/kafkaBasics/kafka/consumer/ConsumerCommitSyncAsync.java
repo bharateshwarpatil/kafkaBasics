@@ -1,4 +1,4 @@
-package com.taining.kafka.consumer;
+package com.kafkaBasics.kafka.consumer;
 
 public class ConsumerCommitSyncAsync {
 

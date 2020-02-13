@@ -1,7 +1,8 @@
-package com.taining.kafka.Producer;
+package com.kafkaBasics.kafka.Producer;
 
-import com.taining.kafka.Constants;
-import com.taining.kafka.pojo.Event;
+
+import com.kafkaBasics.kafka.Constants;
+import com.kafkaBasics.kafka.pojo.Event;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
@@ -25,7 +26,7 @@ public class ProducerStorm {
         props.put("buffer.memory", 33554432);
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", " com.taining.kafka.serializer.KafkaJsonSerializer");
-        KafkaProducer<String,Event> producer = new KafkaProducer<String,Event>(props);
+        KafkaProducer<String, Event> producer = new KafkaProducer<String,Event>(props);
         for(int i=0 ; i <1000;i++){
             //alert, SystemAlert, warning, Simple event
             List<String> list = new ArrayList<String>();

@@ -1,6 +1,6 @@
-package com.taining.kafka.Producer;
+package com.kafkaBasics.kafka.Producer;
 
-import com.taining.kafka.Constants;
+import com.kafkaBasics.kafka.Constants;
 import kafka.Kafka;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;

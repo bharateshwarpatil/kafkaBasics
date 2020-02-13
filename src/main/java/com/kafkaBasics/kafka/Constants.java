@@ -1,4 +1,4 @@
-package com.taining.kafka;
+package com.kafkaBasics.kafka;
 
 public class Constants {
 

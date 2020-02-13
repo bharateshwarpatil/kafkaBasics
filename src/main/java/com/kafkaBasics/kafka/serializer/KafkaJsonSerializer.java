@@ -1,8 +1,9 @@
-package com.taining.kafka.serializer;
+package com.kafkaBasics.kafka.serializer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.taining.kafka.pojo.Event;
+
+import com.kafkaBasics.kafka.pojo.Event;
 import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Serializer;
 

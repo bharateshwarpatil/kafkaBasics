@@ -1,4 +1,4 @@
-package com.taining.kafka.pojo;
+package com.kafkaBasics.kafka.pojo;
 
 
 public class Event  {

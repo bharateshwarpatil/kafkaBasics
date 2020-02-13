@@ -1,4 +1,4 @@
-package com.taining.kafka.Producer;
+package com.kafkaBasics.kafka.Producer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kafka.cluster.Partition;
